@@ -317,7 +317,7 @@ async def start(client, message):
                     [
                     InlineKeyboardButton("🔰 Verify 🔰", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ],[
-                    InlineKeyboardButton("❓❗ How to Verify ❗❓", url="https://telegram.me/FF_Help"))
+                    InlineKeyboardButton("❓❗ How to Verify ❗❓", url="https://telegram.me/FF_Help")
                 ]
                 ]
                 await message.reply_text(
